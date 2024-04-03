@@ -16,7 +16,8 @@
     "watch": "tsc -w",
     "prepublishOnly": "npm run clean && npm run compile",
     "release": "standard-version",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "npm run clean && npm run compile"
   },
   "author": "Functional One, Ltd.",
   "license": "MIT",
